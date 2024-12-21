@@ -1,0 +1,40 @@
+*{
+  margin: 0%;
+  box-sizing: border-box;
+}
+nav{
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+ul{
+  list-style-type: none;
+  display: flex;
+}
+
+ul li{
+  padding: 13px;
+  cursor: pointer;
+}
+a{
+  color: white;
+  font-size: x-large;
+  text-decoration: none;
+}
+
+ul a:hover{
+  color: tomato;
+}
+
+table{
+  width: 100%;
+  padding: 0px 20px;
+}
+
+table,th,td{
+  border: 2px solid black ;
+  border-collapse: collapse;
+}
